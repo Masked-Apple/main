@@ -4,7 +4,7 @@ from discord.ext import commands
 import libneko
 
 
-prefix = "!"
+prefix = ","
 Client = discord.Client()
 client = commands.Bot(command_prefix = '!')
 owner = int(303152083891257344)
