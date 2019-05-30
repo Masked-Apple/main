@@ -17,7 +17,7 @@ from datetime import datetime
 
 prefix = ","
 Client = discord.Client()
-client = commands.Bot(command_prefix = '!')
+client = commands.Bot(command_prefix = ',')
 owner = int(303152083891257344)
 winners = []
 conn = sqlite3.connect('Users.sqlite')
